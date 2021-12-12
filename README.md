@@ -7,13 +7,14 @@ La finalidad de este proyecto es el de poner en práctica un proceso simple de i
 - Licenciatura en Administración
 
 Estas licenciaturas representan el mejor y el peor programa, en términos de indicadores de trayectorias escolares:
-•	Tasa de retención del primero al segundo semestre
-•	Índice de reprobación por materia
-•	Porcentaje de alumnos regulares
-•	Eficiencia terminal
-•	Entre otros.
+- Tasa de retención del primero al segundo semestre
+- Índice de reprobación por materia
+- Porcentaje de alumnos regulares
+- Eficiencia terminal
+- Entre otros.
 
-Pretendemos con este análisis, intentar encontrar patrones o características que nos pudieran mostrar que hace que un programa tenga buenos resultados en los indicadores de trayectorias y que hace al otro que no sean tan buenos.
+Pretendemos con este análisis, intentar encontrar patrones o características que nos pudieran mostrar que hace que un programa tenga buenos resultados en los indicadores de trayectorias y que hace al otro que en el no sean tan buenos.
+
 El proyecto consta de varios pasos o secciones:
 
 #### Obtención de los datos.
@@ -22,21 +23,11 @@ En este caso la información fue proporcionada por la dirección de servicios es
 - Calificaciones-2212-21112021-enviar.7z
 
 #### Análisis exploratorio y limpieza de datos
-Armonización de variables Manejo correcto y codificación de datos cuantitativos, cualitativos, fechas y horas. Manejo de valores perdidos Detección y manejo de valores anómalos (outliers)
+Se realizó un análisis exploratorio y un proceso de limpieza de datos. En este paso se identifican la parte incorrecta, incompleta, inexacta, irrelevante o faltante de los datos para luego modificarlos, reemplazarlos o eliminarlos según sea necesario. Se Eliminaron columnas las cuales no tenían ninguna información, otras que tenían información irrelevante para nuestro análisis, se realizó un proceso de armonización de variables donde modificamos nombres de columnas para la correcta unión de las dos fuentes de datos, así como un mejor entendimiento de su contenido. Se modifico el tipo de dato de algunas características para su mejor representación y manejo. De igual forma se analizaron los valores faltantes, los cuales, para las columnas a utilizar fueron sumamente pocos. y por último se analizaron los posibles datos anómalos.
 
-#### Generación de un conjunto de datos arreglados (tidy data)
-Un script (R o Python) de limpieza básica que lea los datos crudos y devuelva los datos acomodados Los datos en forma tidy, ya sea en csv, parquet, o SQlite Un diccionario de datos especificando las descripciones de cada atributo y sus unidades Limpieza de datos, la cual debe incluir:
+#### Generación de un conjunto de datos tidy data
+Se genero un script en Python, el cual se encuentra en este repositorio, en el se realiza la lectura, limpieza y análisis, el cual devuelva un subconjunto de datos en forma tidy, ya sea en formato csv. Se creo también un diccionario de datos especificando las descripciones de los atributo de los que en este caso se logró obtener información.
 
 #### Presentación de un Dashboard
 
 
-
-Data extraction and data tidying processes: Data about video games platforms and video games ratings is extracted from IGDB using its API, then, retrieved data is tydified and stored in raw_data folder. Also, data dictionaries are created and stored in data_dicts folder. The details are in 1_problem_statement_and_data_extraction.ipynb.
-
-Data cleaning: Raw data is processed, column types are adjusted, repeated and missing values are handled, and outliers detection is performed. Finally, cleaned data is stored in cleaned_data folder. The details are in 2_data_cleaning.ipynb.
-
-Exploratory Data Analysis: An exploratory data analysis is performed over platforms and video games data. Details in 3_eda.ipynb.
-
-Report generation: Data is used to answer the main questions of the analyis and automatically a pdf report is generated. Images and the pdf report file are stored in report folder. All the details are in 4_report_generation.ipynb.
-
-To reproduce the results is recommended to create an anaconda environment from the videogames.yml file.
