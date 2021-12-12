@@ -31,4 +31,4 @@ Se generó un script en Python el cual se encuentra en este repositorio, en el, 
 
 #### Dashboard
 Publicación de un dashboar mostrando una comparacion simple entre ambos programas. 
-[Dashboard] (https://public.tableau.com/app/profile/manuel.valenzuela/viz/Trayectorias/Dashboard1?publish=yes)
+[Dashboard](https://public.tableau.com/app/profile/manuel.valenzuela/viz/Trayectorias/Dashboard1?publish=yes)
