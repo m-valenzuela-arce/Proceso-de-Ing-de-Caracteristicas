@@ -13,7 +13,7 @@ Estas licenciaturas representan el mejor y el peor programa, en términos de ind
 - Eficiencia terminal
 - Entre otros.
 
-Pretendemos con este análisis, intentar encontrar patrones o características que nos pudieran mostrar que hace que un programa tenga buenos resultados en los indicadores de trayectorias y que hace al otro que en el no sean tan buenos.
+Pretendemos con este análisis, intentar encontrar patrones o características que nos pudieran mostrar que hace que un programa tenga buenos resultados en los indicadores de trayectorias y el otro no. Sin embargo, para esta primera entrega, limitaremos el alcance a una comparacion simple entre ambas carreras para confirmar lo que en este momento ya sabemos.
 
 El proyecto consta de varios pasos o secciones:
 
@@ -28,3 +28,7 @@ Se realizó un análisis exploratorio y un proceso de limpieza de datos. En este
 
 #### Generación de un conjunto de datos tidy data
 Se generó un script en Python el cual se encuentra en este repositorio, en el, se realiza la lectura, limpieza y análisis de los datos y el cual devuelva un subconjunto de datos en forma tidy y en formato csv para poder ser utilizaso en la siguiente fase de este proceso. Se creo también un diccionario de datos con la descripcion de los atributo de los que en este caso se logró obtener información. La libreta con estas acciones se encuentra [aqui](https://github.com/m-valenzuela-arce/Proceso-de-Ing-de-Caracteristicas/blob/5a0a95f7ea3dc110c5ee9e5da4ed810f50bf4c02/EDA_Limpieza_Tidy.ipynb).
+
+#### Dashboard
+Publicación de un dashboar mostrando una comparacion simple entre ambos programas. 
+[Dashboard] (https://public.tableau.com/app/profile/manuel.valenzuela/viz/Trayectorias/Dashboard1?publish=yes)
