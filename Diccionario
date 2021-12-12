@@ -1,0 +1,166 @@
+CAMPUS	
+Campus al que pertenece el estudiante
+	
+DIVISION	
+División a la que pertenece el programa
+	
+NOMBRE DEPARTAMENTO	
+Departamento al que pertenece el programa
+	
+DEPARTAMENTO	
+Número del departamento
+	
+EXPEDIENTE	
+Número de expediente del estudiante
+	
+CVE PROG	
+Clave del Programa
+	
+PROGRAMA	
+Nombre del Programa
+	
+*ESPECIALIDAD*	
+	
+*NOMBRE ESP*	
+	
+*OPCION*	
+	
+*NOMBRE OPC*	
+	
+PLAN	
+Clave del plan de estudios al que pertenece el estudiante
+	
+CREDITOS PASANTE	
+Total de créditos necesarios para terminar el plan de estudios
+	
+ESTATUS	
+Estatus del estudiante: 
+Activo(A): Cuando tiene materias inscritas, pero también puede serlo a finales o principio de periodo (y puede durar algunas semanas así hasta que se termina la reinscripción de adicionales un poco después se les cambia el status a inactivo a este tipo de casos).
+Inactivo (I): Es el que no tiene carga académica en el periodo actual o anteriores (el status dura así 2 años ó 4 periodos, si sigue inactivo se convierte en Inactivo por más de 2 años (I40).
+Inactivo por más de dos años (I40): Alumno con más de dos años inactivo.
+Cancelado (C): Expediente cancelado.
+Alumno con Dispensa (D): Alumno que le faltan pocas materias y que causó baja por reglamento, se le concede la Dispensa para terminar sus estudios. 
+Suspendido…en estudio(S): alumno suspendido, puede ser temporal el status mientras se les hace una investigación, alumno que no entregó su documento de preparatoria.
+Baja por artículo 22 (B22): Baja por artículo 22 del Reglamento anterior, por no acreditar en 5 inscripciones la materia.
+Baja por artículo 38 (B38): Suspensión temporal por no acreditar en 3 inscripciones la materia.
+Baja por artículo 60 fracción I (B6A): Baja definitiva, se aplica por haber reprobado más del 50% de los créditos en que haya estado inscrito en 2 inscripciones consecutivas, en el lapso comprendido en el segundo y quinto periodos escolares.
+Baja por artículo 60 fracción II (B6B): Baja aplicada por no acreditar la evaluación extraordinaria especial.
+Baja por artículo 29(B29): Baja donde se cancela al alumno y su inscripción por falsificar documentos.
+Baja definitiva Art. 61(B61): Baja definitiva, es cuando un alumno tiene baja automática en dos programas, ya no podrá cursar ningún programa de licenciatura de la Universidad.
+Baja por no acreditar dispensa (BND): El alumno al que se le concedió dispensa no cumple con los requisitos que le establecieron.
+Egresado (E): Alumno que acreditó el 100% de los créditos que su programa le indica.
+B74: Se venció el periodo de los 2 años para hacer EEE.
+B23: ECA, reglamento viejo donde la división hacia bajas.
+	
+TIPO	
+Tipo de estudiante, puede ser:
+R: Regular
+I: Irregular
+
+AVANCE	
+Créditos aprobados a la fecha
+	
+KARDEX	
+Promedio general del Kardex
+	
+PERIODO	
+Calificación en el semestre
+	
+INICIO	
+Ciclo en que inicio a estudiar en el programa
+	
+ULTIMO CICLO	
+Ultimo ciclo inscrito en el programa
+	
+MATERIA	
+Clave de Materia
+	
+NOMBRE MATERIA	
+Nombre de la materia
+	
+HORAS TEO	
+Horas de teoría de la materia
+	
+HORAS LAB	
+Horas de laboratorio de la materia
+	
+GRUPO	
+Numero de grupo de la materia
+	
+EDO 1	
+Tipo de inscripción a la materia:
+A: 	Inscrito en materia adicional.
+C: 	Materia conmutada.
+CP: 	Conmutación pendiente por no cumplir un requisito.
+D: 	Causo baja en esta materia y se le dio dispensa.
+DP: 	Se solicitó derecho a pasante.
+E: 	Equivalencia
+EP: 	Equivalencia pendiente por no cumplir un requisito.
+F: 	Materia fuera de plan.
+I: 	Esta materia fue por inscripción normal.
+M: 	Movilidad
+MP: 	Movilidad pendiente
+P: 	Materia pendiente por no cumplir un requisito.
+R: 	Revalidación
+RP: 	Revalidación pendiente por no cumplir un requisito.
+	
+EDO 2	
+Estatus de la materia:
+A:  Materia Aprobada
+B22:   Causo baja por art. 22 en esta materia (5ta o 6ta inscripción)
+B23:  Causo baja por art. 23 en estas materias (Reglamento Interno)
+B38:   Suspensión temporal por no acreditar en 3 inscripciones la materia.
+B6A:   Baja por artículo 60 fracción I. Baja definitiva, se aplica por haber reprobado más del 50% de los créditos en que haya estado inscrito en 2 inscripciones consecutivas, en el lapso comprendido en el segundo y quinto periodos escolares.
+B6B:   Baja por artículo 60 fracción II. Baja aplicada por no acreditar la evaluación extraordinaria especial.
+BE:  Se dio de baja por error (cancelación de inscripción)
+BG:  Se canceló grupo y se cancela la inscripción.
+BV: Se dio de baja voluntaria.
+C:  Materia cursada actualmente.
+R:   Materia reprobada
+B74:   Baja por no presentar la evaluación extraordinaria especial
+
+CAL ORD	
+Calificación en ordinario
+	
+CAL EXT	
+Calificación en extraordinario
+	
+NUMERO INSCRIPCIONES	
+Número de veces que se ha inscrito a la materia
+	
+NUMERO REP	
+Número de veces que ha reprobado la materia
+	
+NUM BAJA	
+Número de veces que se ha dado de baja de la materia
+	
+CICLO MAT	
+	
+CVE MAESTRO	
+Numero de empleado del maestro
+	
+CVE MAESTRO2
+Numero de empleado del maestro
+	
+feccap	
+Fecha de captura
+	
+Movimiento	
+
+010	Dispensa
+011	Acta Especial
+012	Nueva Inscripción
+013	Corrección de calificación
+014	 Corrección de datos de la materia
+001	 Cambio de grupo
+002	 Permuta
+003	 Reactivación
+004	 Pase Inscripción
+016	Cambio carrera
+006	Revalidación
+007	Conmutación
+008	Cambio de Plan
+009	Derecho de Pasante
+024	EVAL. EXT. ESP.
+015	Reactivación de expediente
+025 	Cursada en TC
