@@ -30,5 +30,5 @@ Se realizó un análisis exploratorio y un proceso de limpieza de datos. En este
 Se generó un script en Python el cual se encuentra en este repositorio, en el, se realiza la lectura, limpieza y análisis de los datos y el cual devuelva un subconjunto de datos en forma tidy y en formato csv para poder ser utilizaso en la siguiente fase de este proceso. Se creo también un diccionario de datos con la descripcion de los atributo de los que en este caso se logró obtener información. La libreta con estas acciones se encuentra [aqui](https://github.com/m-valenzuela-arce/Proceso-de-Ing-de-Caracteristicas/blob/5a0a95f7ea3dc110c5ee9e5da4ed810f50bf4c02/EDA_Limpieza_Tidy.ipynb).
 
 #### Dashboard
-Publicación de un dashboar mostrando una comparacion simple entre ambos programas. 
+Publicación de un dashboar mostrando una comparación simple entre ambos programas. 
 [Dashboard](https://public.tableau.com/app/profile/manuel.valenzuela/viz/Trayectorias/Dashboard1?publish=yes)
