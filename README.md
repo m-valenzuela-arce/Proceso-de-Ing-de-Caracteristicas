@@ -26,8 +26,4 @@ En este caso la información fue proporcionada por la dirección de servicios es
 Se realizó un análisis exploratorio y un proceso de limpieza de datos. En este paso se identifican la parte incorrecta, incompleta, inexacta, irrelevante o faltante de los datos para luego modificarlos, reemplazarlos o eliminarlos según sea necesario. Se Eliminaron columnas las cuales no tenían ninguna información, otras que tenían información irrelevante para nuestro análisis, se realizó un proceso de armonización de variables donde modificamos nombres de columnas para la correcta unión de las dos fuentes de datos, así como un mejor entendimiento de su contenido. Se modifico el tipo de dato de algunas características para su mejor representación y manejo. De igual forma se analizaron los valores faltantes, los cuales, para las columnas a utilizar fueron sumamente pocos. y por último se analizaron los posibles datos anómalos.
 
 #### Generación de un conjunto de datos tidy data
-Se genero un script en Python, el cual se encuentra en este repositorio, en el se realiza la lectura, limpieza y análisis, el cual devuelva un subconjunto de datos en forma tidy, ya sea en formato csv. Se creo también un diccionario de datos especificando las descripciones de los atributo de los que en este caso se logró obtener información.
-
-#### Presentación de un Dashboard
-
-
+Se generó un script en Python el cual se encuentra en este repositorio, en el, se realiza la lectura, limpieza y análisis de los datos y el cual devuelva un subconjunto de datos en forma tidy y en formato csv para poder ser utilizaso en la siguiente fase de este proceso. Se creo también un diccionario de datos con la descripcion de los atributo de los que en este caso se logró obtener información.
