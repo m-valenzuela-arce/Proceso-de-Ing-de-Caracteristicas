@@ -86,7 +86,7 @@ Horas de laboratorio de la materia
 	
 GRUPO	
 Numero de grupo de la materia
-0 son valores faltantes
+0 son valores faltantes.*
 	
 EDO 1	
 Tipo de inscripción a la materia:
@@ -125,6 +125,7 @@ Calificación en ordinario
 	
 CAL EXT	
 Calificación en extraordinario
+0 puede ser valor faltante, 'NP' o que realmente obtuvo 0 de calificación en el extraordinario.*
 	
 NUMERO INSCRIPCIONES	
 Número de veces que se ha inscrito a la materia
